@@ -9,7 +9,7 @@ This is an example project fully configured with [Next.js](https://nextjs.org), 
 
 You can use your appearance settings to change the theme or implement your own theme provider to change themes in the UI.
 
-![Theme appearance]('https://github.com/inavac182/next-js-w-uireact/blob/main/public/theme-selector.gif?raw=true')
+![Theme appearance]('/theme-selector.gif')
 
 ## Styling
 
