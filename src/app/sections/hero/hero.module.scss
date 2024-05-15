@@ -1,0 +1,29 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    position: relative;
+}
+
+.heroGrid {
+    overflow: hidden;
+}
+
+.heroTitle {
+    background-color: var(--primary-token_100);
+    height: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    max-width: 580px;
+}
+
+.heroWavesContent {
+    height: 100vh;
+}
+
+.heroIcons {
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

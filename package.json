@@ -9,11 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@uireact/card": "^3.6.3",
+    "@uireact/dialog": "^2.6.3",
+    "@uireact/flex": "^2.5.2",
     "@uireact/foundation": "^2.9.3",
+    "@uireact/framer-animations": "^0.8.2",
+    "@uireact/icons": "^2.7.2",
+    "@uireact/text": "^2.8.2",
     "@uireact/view": "^2.8.4",
+    "framer-motion": "^11.2.2",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
+    "sass": "^1.77.1",
     "styled-components": "^6.1.11"
   },
   "devDependencies": {

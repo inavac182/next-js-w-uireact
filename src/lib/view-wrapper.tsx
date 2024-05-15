@@ -2,8 +2,10 @@
 
 import React, { useCallback, useEffect, useState } from "react";
 
-import { DefaultTheme, ThemeColor } from "@uireact/foundation";
+import { ThemeColor } from "@uireact/foundation";
 import { UiView } from "@uireact/view";
+
+import { CustomTheme } from './custom-theme';
 
 type ViewWrapperProps = {
   children: React.ReactNode;
@@ -50,6 +52,6 @@ export const ViewWrapper = ({ children }: ViewWrapperProps) => {
   }, []);
 
   return (
-    <UiView theme={DefaultTheme} selectedTheme={selectedTheme}>{children}</UiView>
+    <UiView theme={CustomTheme} selectedTheme={selectedTheme}>{children}</UiView>
   );
 };
