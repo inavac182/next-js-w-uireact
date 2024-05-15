@@ -1,9 +1,21 @@
 # next-js-w-uireact
 Example project with Next JS using @UiReact library
 
-# Next JS README Info
+# @UiReact Info
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is an example project fully configured with [Next.js](https://nextjs.org), [Styled components](https://styled-components.com) and [@UiReact](https://uireact.io) library working propertly.
+
+## Theme Switcher
+
+You can use your appearance settings to change the theme or implement your own theme provider to change themes in the UI.
+
+![Theme appearance]('./public/theme-selector.gif')
+
+## Styling
+
+In this example we are using a mix of styled-components and CSS modules with SASS for styling just for demoing purposes. We highly suggest you only use one in your app's code as that will bring consistency and make it easier to maintain.
+
+As @UiReact uses styled-components you will have to keep it installed, although if is not your favorite you can only use CSS Modules in your apps code and leave styled-components for the library components.
 
 ## Getting Started
 
@@ -20,6 +32,11 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+# Next JS README Info
+
+This NextJS implementation was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
