@@ -73,6 +73,7 @@ export const HeroContent = () => {
                             </UiFlexGrid>
                         </UiCard>
                     </Link>
+                    <UiText>Use your device's settings to change theme appearance.</UiText>
                 </UiFlexGrid>
                 <UiFlexGrid gap='five' direction='column'>
                     <UiText fontStyle='bold'>@UiReact useful links:</UiText>
