@@ -16,7 +16,7 @@
     "@uireact/framer-animations": "^0.8.2",
     "@uireact/icons": "^2.7.3",
     "@uireact/text": "^2.8.2",
-    "@uireact/view": "^2.8.4",
+    "@uireact/view": "^2.10.0",
     "framer-motion": "^11.2.2",
     "next": "14.2.3",
     "react": "^18",

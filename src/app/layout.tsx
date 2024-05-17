@@ -3,7 +3,7 @@ import { Sen } from "next/font/google";
 
 import { GlobalStyles, StyledComponentsRegistry, ViewWrapper } from '@/lib';
 
-const sen = Sen({ style: 'normal', subsets: ['latin'] });
+const sen = Sen({ style: 'normal', subsets: ['latin'], variable: '--font-family' });
 
 export const metadata: Metadata = {
   title: "NextJS w/@UiReact",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={sen.className}>
+      <body className={sen.variable}>
         <GlobalStyles />
         <StyledComponentsRegistry>
           <ViewWrapper>
