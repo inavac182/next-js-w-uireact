@@ -13,7 +13,17 @@ You can use your appearance settings to change the theme or implement your own t
 
 ## Styling
 
+Important file to mention is `global.css` this file imports the styles from the @UiReact dependencies. You will need to add each CSS file here as needed when installing a new package.
 
+If you create and want to use your own theme style variables, make sure you delete: 
+
+```
+/* DELETE THIS IMPORT IF YOU WILL PROVIDE YOUR OWN THEME VARIABLES */
+@import url(../node_modules/@uireact/foundation/dist/index.css);
+
+```
+
+Also, the font family variable is declared by NextJS when importing the google font from next/font/google, you can check this in the file `src/app/layout.tsx`. If you use another font make sure to use the same CSS variable so all packages picks up the correct font.
 
 ## Getting Started
 
