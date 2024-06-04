@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Sen } from "next/font/google";
 
-import { GlobalStyles, StyledComponentsRegistry, ViewWrapper } from '@/lib';
+import { ViewWrapper } from '@/lib';
+import './global.css';
 
 const sen = Sen({ style: 'normal', subsets: ['latin'], variable: '--font-family' });
 
@@ -18,12 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={sen.variable}>
-        <GlobalStyles />
-        <StyledComponentsRegistry>
           <ViewWrapper>
             {children}
           </ViewWrapper>
-        </StyledComponentsRegistry>
       </body>
     </html>
   );

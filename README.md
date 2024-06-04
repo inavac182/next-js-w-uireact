@@ -13,9 +13,7 @@ You can use your appearance settings to change the theme or implement your own t
 
 ## Styling
 
-In this example we are using a mix of styled-components and CSS modules with SASS for styling just for demoing purposes. We highly suggest you only use one in your app's code as that will bring consistency and make it easier to maintain.
 
-As @UiReact uses styled-components you will have to keep it installed, although if is not your favorite you can only use CSS Modules in your apps code and leave styled-components for the library components.
 
 ## Getting Started
 

@@ -9,20 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@uireact/card": "^3.6.3",
-    "@uireact/dialog": "^2.6.4",
-    "@uireact/flex": "^2.5.2",
-    "@uireact/foundation": "^2.9.3",
+    "@uireact/card": "^3.7.0",
+    "@uireact/dialog": "^3.0.3",
+    "@uireact/flex": "^3.0.3",
+    "@uireact/foundation": "^3.0.3",
     "@uireact/framer-animations": "^0.8.2",
-    "@uireact/icons": "^2.7.3",
-    "@uireact/text": "^2.8.2",
-    "@uireact/view": "^2.10.0",
+    "@uireact/icons": "^3.0.3",
+    "@uireact/text": "^3.0.4",
+    "@uireact/view": "^3.0.4",
     "framer-motion": "^11.2.2",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "sass": "^1.77.1",
-    "styled-components": "^6.1.11"
+    "sass": "^1.77.1"
   },
   "devDependencies": {
     "@types/node": "^20",

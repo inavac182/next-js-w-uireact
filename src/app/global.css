@@ -1,0 +1,18 @@
+/**
+*
+* Import all @UiReact dependency styles down here:
+*
+*/
+
+/* DELETE THIS IMPORT IF YOU WILL PROVIDE YOUR OWN THEME VARIABLES */
+@import url(../../node_modules/@uireact/foundation/dist/index.css);
+
+/* @UiReact DEPENDENCIES */
+
+@import url(../../node_modules/@uireact/view/dist/index.css);
+@import url(../../node_modules/@uireact/card/dist/index.css);
+@import url(../../node_modules/@uireact/dialog/dist/index.css);
+@import url(../../node_modules/@uireact/flex/dist/index.css);
+@import url(../../node_modules/@uireact/foundation/dist/index.css);
+@import url(../../node_modules/@uireact/icons/dist/index.css);
+@import url(../../node_modules/@uireact/text/dist/index.css);

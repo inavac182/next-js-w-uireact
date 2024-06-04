@@ -28,3 +28,12 @@
     flex-direction: column;
     align-items: center;
 }
+
+.heroContentTitle {
+    font-size: 36px;
+    font-weight: bold;
+    width: fit-content;
+    background: -webkit-linear-gradient(45deg,  var(--fonts-token_100) 0%, var(--tertiary-token_100) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
