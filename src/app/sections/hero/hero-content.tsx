@@ -41,7 +41,7 @@ export const HeroContent = () => {
                     <Link href="https://uireact.io" target='_blank'>
                         <UiCard motion={{ ...UiReactTapScaleDown, ...UiReactHoverElevate }}>
                             <UiFlexGrid justifyContent='space-between' alignItems='center'>
-                                <UiHeading>@UiReact</UiHeading>
+                                <UiText>@UiReact</UiText>
                                 <UiIcon icon="AngleCircleRight" />
                             </UiFlexGrid>
                         </UiCard>
@@ -49,7 +49,7 @@ export const HeroContent = () => {
                     <Link href="https://vercel.com" target='_blank'>
                         <UiCard motion={{ ...UiReactTapScaleDown, ...UiReactHoverElevate }}>
                             <UiFlexGrid justifyContent='space-between' alignItems='center'>
-                                <UiHeading>Deploy to Vercel </UiHeading>
+                                <UiText>Deploy to Vercel </UiText>
                                 <UiIcon icon="AngleCircleRight" />
                             </UiFlexGrid>
                         </UiCard>
@@ -58,17 +58,17 @@ export const HeroContent = () => {
                 </UiFlexGrid>
                 <UiFlexGrid gap='five' direction='column'>
                     <UiText fontStyle='bold'>@UiReact useful links:</UiText>
-                    <UiButtonLink padding={{ block: 'four'}}>
+                    <UiButtonLink padding={{ block: 'two'}}>
                         <Link href="https://uireact.io/create-theme" target='_blank'>
-                            <UiFlexGrid gap='four'>
+                            <UiFlexGrid gap='two' alignItems='center'>
                                 <UiIcon icon='Layers' />
                                 Create your theme
                             </UiFlexGrid>
                         </Link>
                     </UiButtonLink>
-                    <UiButtonLink padding={{ block: 'four'}}>
+                    <UiButtonLink padding={{ block: 'two'}}>
                         <Link href="https://github.com/inavac182/uireact/discussions" target='_blank'>
-                            <UiFlexGrid gap='four'>
+                            <UiFlexGrid gap='two' alignItems='center'>
                                 <UiIcon icon='Question' />
                                 Questions
                             </UiFlexGrid>
