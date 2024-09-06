@@ -23,9 +23,8 @@ export const HeroContent = () => {
             </UiFlexGrid>
             <UiSpacing padding={{ block: 'five' }}>
                 <UiText size='small'>
-                    This is a working project powered by <UiText fontStyle='bold' inline>NextJS</UiText>, 
-                    <UiText fontStyle='bold' inline> Styled-components</UiText> completed configured and 
-                    <UiText fontStyle='bold' inline> @UiReact</UiText> wrapping completely done.
+                    This is a working project powered by <UiText fontStyle='bold' inline>NextJS</UiText> and
+                    <UiText fontStyle='bold' inline> @UiReact</UiText> completely set up, using the default theme exported from the @uireact/foundation package.
                 </UiText>
             </UiSpacing>
             <UiFlexGrid gap='seven' direction='column'>
